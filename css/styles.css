@@ -6,7 +6,7 @@
     --primary-color: #007a3d;
     --primary-dark: #005a2d;
     --primary-light: #00a84f;
-    --secondary-color: #ffc107;
+    --secondary-color: #C91619;
     --secondary-dark: #e6b000;
     
     /* Cores de badges */
@@ -197,7 +197,7 @@ ul {
 
 .btn-primary {
     background-color: var(--secondary-color);
-    color: var(--text-primary);
+    color: white;
 }
 
 .btn-primary:hover {
