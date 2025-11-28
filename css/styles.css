@@ -7,7 +7,7 @@
     --primary-dark: #005a2d;
     --primary-light: #00a84f;
     --secondary-color: #C91619;
-    --secondary-dark: #e6b000;
+    --secondary-dark: #E04F52;
     
     /* Cores de badges */
     --badge-pesquisa: #007bff;
@@ -478,7 +478,7 @@ ul {
     }
     
     .card {
-        flex-basis: calc(33.333% - var(--spacing-xl) * 2 / 3);
+        flex-basis: calc(25% - var(--spacing-xl) * 3 / 4);
     }
     
     /* Aumenta espaçamentos */
