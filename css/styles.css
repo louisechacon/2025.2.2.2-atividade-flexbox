@@ -1,6 +1,4 @@
-/* ===================================
-   CSS Variables (Variáveis CSS)
-   =================================== */
+/* Variáveis CSS */
 :root {
     /* Cores principais */
     --primary-color: #007a3d;
@@ -52,9 +50,6 @@
     --transition-base: 0.3s ease;
 }
 
-/* ===================================
-   Reset CSS Básico
-   =================================== */
 * {
     margin: 0;
     padding: 0;
@@ -74,9 +69,10 @@ body {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
 }
 
 a {
@@ -89,9 +85,7 @@ ul {
     list-style: none;
 }
 
-/* ===================================
-   Utilitários
-   =================================== */
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -99,14 +93,12 @@ ul {
     padding: 0 var(--spacing-sm);
 }
 
-/* ===================================
-   MOBILE FIRST - Estilos Base (Mobile)
-   =================================== */
+/* MOBILE FIRST - Estilos Base (Mobile) */
 
 /* Header */
 .header {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: white;
+    color: black;
     padding: var(--spacing-sm) 0;
     position: sticky;
     top: 0;
@@ -144,7 +136,7 @@ ul {
 }
 
 .nav-list a {
-    color: white;
+    color: black;
     font-weight: 500;
     padding: var(--spacing-xs) var(--spacing-sm);
     border-radius: var(--radius-sm);
@@ -152,7 +144,7 @@ ul {
 }
 
 .nav-list a:hover {
-    background-color: var(--primary-dark);
+    background-color: var(--primary-light);
 }
 
 /* Hero Section */
@@ -395,9 +387,7 @@ ul {
     font-size: var(--font-size-sm);
 }
 
-/* ===================================
-   TABLET - Media Query (768px+)
-   =================================== */
+/* TABLET - Media Query (768px+) */
 @media (min-width: 768px) {
     /* Header */
     .header-content {
@@ -441,13 +431,11 @@ ul {
     }
     
     .footer-section {
-        flex: 1;
+        width: fit-content;
     }
 }
 
-/* ===================================
-   DESKTOP - Media Query (1024px+)
-   =================================== */
+/* DESKTOP - Media Query (1024px+) */
 @media (min-width: 1024px) {
     /* Container */
     .container {
@@ -491,16 +479,9 @@ ul {
     }
 }
 
-/* ===================================
-   EXTRA LARGE - Media Query (1440px+)
-   =================================== */
+/* EXTRA LARGE - Media Query (1440px+) */
 @media (min-width: 1440px) {
     .hero-title {
         font-size: 4rem;
     }
-    
-    /* Pode ajustar para 4 colunas se desejar */
-    /* .card {
-        flex-basis: calc(25% - var(--spacing-xl) * 3 / 4);
-    } */
 }

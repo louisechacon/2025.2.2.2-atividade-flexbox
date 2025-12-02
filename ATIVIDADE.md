@@ -15,12 +15,12 @@ Criar uma landing page responsiva utilizando HTML5 e CSS3 com Flexbox, apresenta
 ### 1. Estrutura HTML
 - [X] Criar arquivo `index.html` com estrutura básica HTML5
 - [X] Utilizar tags semânticas (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`)
-- [ ] Adicionar meta tags para responsividade (`viewport`)
-- [ ] Incluir meta tags para SEO (description, keywords)
+- [X] Adicionar meta tags para responsividade (`viewport`)
+- [X] Incluir meta tags para SEO (description, keywords)
 - [X] Vincular arquivo CSS externo
 
 ### 2. Cabeçalho (Header)
-- [ ] Criar logo ou título do IFRN
+- [X] Criar logo ou título do IFRN
 - [X] Adicionar menu de navegação
 - [X] Implementar Flexbox para alinhar elementos do header
 - [X] Tornar o header fixo ou responsivo
@@ -40,7 +40,7 @@ Criar uma landing page responsiva utilizando HTML5 e CSS3 com Flexbox, apresenta
   - [X] Requisitos básicos
   - [X] Link ou botão "Saiba Mais"
 - [X] Usar Flexbox para layout dos cards
-- [ ] Implementar `flex-wrap` para responsividade
+- [X] Implementar `flex-wrap` para responsividade
 - [X] Aplicar criatividade no design dos cards
 
 ### 5. CSS com Flexbox
@@ -52,8 +52,8 @@ Criar uma landing page responsiva utilizando HTML5 e CSS3 com Flexbox, apresenta
 #### 5.1. Mobile-First (Smartphone - até 768px)
 - [X] Definir estilos base para mobile
 - [X] Cards empilhados verticalmente (flex-direction: column)
-- [ ] Menu hambúrguer ou menu vertical
-- [ ] Espaçamentos otimizados para telas pequenas
+- [X] Menu hambúrguer ou menu vertical
+- [X] Espaçamentos otimizados para telas pequenas
 - [X] Textos com tamanhos legíveis
 
 #### 5.2. Tablet (768px - 1024px)
@@ -65,15 +65,15 @@ Criar uma landing page responsiva utilizando HTML5 e CSS3 com Flexbox, apresenta
 #### 5.3. Desktop (acima de 1024px)
 - [X] Criar media query para desktop
 - [X] Cards em 3 ou mais colunas
-- [ ] Layout ampliado com max-width para container
+- [X] Layout ampliado com max-width para container
 - [X] Hover effects nos cards e botões
 
 ### 6. Estilização Avançada
 - [X] Definir paleta de cores profissional
-- [ ] Escolher tipografia adequada (Google Fonts recomendado)
+- [X] Escolher tipografia adequada (Google Fonts recomendado)
 - [X] Adicionar sombras e bordas nos cards
 - [X] Implementar transições CSS (transitions/animations)
-- [ ] Adicionar ícones (Font Awesome, Material Icons, etc.)
+- [X] Adicionar ícones (Font Awesome, Material Icons, etc.)
 
 ### 7. Footer
 - [X] Criar rodapé com informações de contato
@@ -82,24 +82,24 @@ Criar uma landing page responsiva utilizando HTML5 e CSS3 com Flexbox, apresenta
 - [X] Usar Flexbox para organizar elementos
 
 ### 8. Acessibilidade e Boas Práticas
-- [ ] Adicionar atributos `alt` em imagens
+- [X] Adicionar atributos `alt` em imagens
 - [X] Usar contraste adequado de cores
-- [ ] Testar navegação por teclado
-- [ ] Validar HTML no [W3C Validator](https://validator.w3.org/)
-- [ ] Validar CSS no [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [X] Testar navegação por teclado
+- [X] Validar HTML no [W3C Validator](https://validator.w3.org/)
+- [X] Validar CSS no [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ### 9. Testes e Responsividade
-- [ ] Testar em Chrome DevTools (diferentes dispositivos)
-- [ ] Verificar em smartphone real
-- [ ] Testar em tablet (ou simulador)
-- [ ] Verificar em desktop (diferentes resoluções)
-- [ ] Ajustar breakpoints conforme necessário
+- [X] Testar em Chrome DevTools (diferentes dispositivos)
+- [X] Verificar em smartphone real
+- [X] Testar em tablet (ou simulador)
+- [X] Verificar em desktop (diferentes resoluções)
+- [X] Ajustar breakpoints conforme necessário
 
 ### 10. Documentação
-- [ ] Criar arquivo README.md explicando o projeto
-- [ ] Documentar fontes de pesquisa das oportunidades
-- [ ] Listar tecnologias utilizadas
-- [ ] Incluir screenshots ou link para visualização
+- [X] Criar arquivo README.md explicando o projeto
+- [X] Documentar fontes de pesquisa das oportunidades
+- [X] Listar tecnologias utilizadas
+- [X] Incluir screenshots ou link para visualização
 
 ## 📚 Recursos Úteis
 
