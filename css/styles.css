@@ -93,7 +93,7 @@ ul {
     padding: 0 var(--spacing-sm);
 }
 
-/* MOBILE FIRST - Estilos Base (Mobile) */
+/* MOBILE FIRST */
 
 /* Header */
 .header {
@@ -147,7 +147,7 @@ ul {
     background-color: var(--primary-light);
 }
 
-/* Hero Section */
+/* Seção hero */
 .hero {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
     color: white;
@@ -174,7 +174,7 @@ ul {
     max-width: 600px;
 }
 
-/* Buttons */
+/* Botões */
 .btn {
     display: inline-block;
     padding: var(--spacing-sm) var(--spacing-lg);
@@ -209,12 +209,12 @@ ul {
     box-shadow: var(--shadow-md);
 }
 
-/* Main Content */
+/* Main */
 .main {
     padding: var(--spacing-xl) 0;
 }
 
-/* Opportunities Section */
+/* Seção oportunidades */
 .opportunities {
     padding: var(--spacing-xl) 0;
     background-color: var(--background-secondary);
@@ -235,14 +235,14 @@ ul {
     font-size: var(--font-size-lg);
 }
 
-/* Cards Container - FLEXBOX */
+/* Cards Container  */
 .cards-container {
     display: flex;
-    flex-direction: column; /* Mobile: cards empilhados verticalmente */
+    flex-direction: column;
     gap: var(--spacing-lg);
 }
 
-/* Individual Card */
+/* Card individual */
 .card {
     background-color: white;
     border-radius: var(--radius-lg);
@@ -327,7 +327,7 @@ ul {
     justify-content: center;
 }
 
-/* About Section */
+/* Seção sobre */
 .about {
     padding: var(--spacing-xl) 0;
 }
@@ -344,7 +344,7 @@ ul {
     line-height: 1.8;
 }
 
-/* Footer */
+/* Rodapé */
 .footer {
     background-color: var(--text-primary);
     color: white;
@@ -387,7 +387,7 @@ ul {
     font-size: var(--font-size-sm);
 }
 
-/* TABLET - Media Query (768px+) */
+/* TABLET */
 @media (min-width: 768px) {
     /* Header */
     .header-content {
@@ -413,7 +413,6 @@ ul {
         font-size: var(--font-size-3xl);
     }
     
-    /* Cards - 2 colunas */
     .cards-container {
         flex-direction: row;
         flex-wrap: wrap;
@@ -424,7 +423,7 @@ ul {
         flex-basis: calc(50% - var(--spacing-lg) / 2);
     }
     
-    /* Footer */
+    /* Rodapé */
     .footer-content {
         flex-direction: row;
         justify-content: space-between;
@@ -435,9 +434,8 @@ ul {
     }
 }
 
-/* DESKTOP - Media Query (1024px+) */
+/* DESKTOP */
 @media (min-width: 1024px) {
-    /* Container */
     .container {
         padding: 0 var(--spacing-lg);
     }
@@ -460,7 +458,7 @@ ul {
         font-size: var(--font-size-xl);
     }
     
-    /* Cards - 3 colunas */
+    /* Cards */
     .cards-container {
         gap: var(--spacing-xl);
     }
@@ -469,7 +467,6 @@ ul {
         flex-basis: calc(25% - var(--spacing-xl) * 3 / 4);
     }
     
-    /* Aumenta espaçamentos */
     .opportunities {
         padding: 5rem 0;
     }
@@ -479,7 +476,7 @@ ul {
     }
 }
 
-/* EXTRA LARGE - Media Query (1440px+) */
+/* EXTRA LARGE */
 @media (min-width: 1440px) {
     .hero-title {
         font-size: 4rem;
